@@ -524,6 +524,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   .logo {
     width: 150px;
   }
+  .proj-imgbx img {
+    height: 100%;
+  }
 }
 @media screen and (max-width: 426px) {
   .project .nav.nav-pills .nav-link {
@@ -553,6 +556,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
   .contact {
     padding: 20px;
+  }
+  .project .nav.nav-pills {
+    width: 90%;
+  }
+  .title {
+    padding: 25px;
+    text-align: center;
   }
 }
 @media screen and (max-width: 321px) {
