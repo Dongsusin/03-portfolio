@@ -14,6 +14,7 @@ import soloimg2 from "../assets/img/change.png";
 import soloimg3 from "../assets/img/pokedex.png";
 import soloimg4 from "../assets/img/todolist.png";
 import soloimg5 from "../assets/img/protfolio.png";
+import soloimg6 from "../assets/img/calculator.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -120,6 +121,13 @@ export const Projects = () => {
       imgUrl: soloimg5,
       url: "https://luxury-vacherin-425521.netlify.app/",
       githuburl: "https://github.com/Dongsusin/03-portfolio",
+      useskill: "React,API,Css",
+    },
+    {
+      title: "계산기",
+      imgUrl: soloimg6,
+      url: "https://delicate-lily-bcf778.netlify.app/",
+      githuburl: "https://github.com/Dongsusin/04-calculator",
       useskill: "React,API,Css",
     },
   ];
