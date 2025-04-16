@@ -42,35 +42,35 @@ export const Skills = () => {
                 className="owl-carousel owl-theme skill-slider"
               >
                 <div className="item">
-                  <img src={meter1} />
+                  <img src={meter1} alt="" />
                   <h5>
                     <img src={htmlimg} alt="htmlimg" className="skillimg" />
                     HTML
                   </h5>
                 </div>
                 <div className="item">
-                  <img src={meter1} />
+                  <img src={meter1} alt="" />
                   <h5>
                     <img src={cssimg} alt="cssimg" className="skillimg" />
                     CSS
                   </h5>
                 </div>
                 <div className="item">
-                  <img src={meter3} />
+                  <img src={meter3} alt="" />
                   <h5>
                     <img src={javaimg} alt="javaimg" className="skillimg" />
                     JAVA
                   </h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} />
+                  <img src={meter2} alt="" />
                   <h5>
                     <img src={reactimg} alt="reactimg" className="skillimg" />
                     REACT
                   </h5>
                 </div>
                 <div className="item">
-                  <img src={meter3} />
+                  <img src={meter3} alt="" />
                   <h5>
                     <img
                       src={githublimg}
