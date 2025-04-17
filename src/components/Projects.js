@@ -15,6 +15,7 @@ import soloimg3 from "../assets/img/pokedex.png";
 import soloimg4 from "../assets/img/todolist.png";
 import soloimg5 from "../assets/img/protfolio.png";
 import soloimg6 from "../assets/img/calculator.png";
+import soloimg7 from "../assets/img/LostArk.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -114,21 +115,28 @@ export const Projects = () => {
       imgUrl: soloimg4,
       url: "https://shimmering-duckanoo-86e550.netlify.app/",
       githuburl: "https://github.com/Dongsusin/02-todolist",
-      useskill: "React,API,Css",
+      useskill: "React,Css",
     },
     {
       title: "포트폴리오",
       imgUrl: soloimg5,
       url: "https://luxury-vacherin-425521.netlify.app/",
       githuburl: "https://github.com/Dongsusin/03-portfolio",
-      useskill: "React,API,Css",
+      useskill: "React,Css",
     },
     {
       title: "계산기",
       imgUrl: soloimg6,
       url: "https://delicate-lily-bcf778.netlify.app/",
       githuburl: "https://github.com/Dongsusin/04-calculator",
-      useskill: "React,API,Css",
+      useskill: "React,Css",
+    },
+    {
+      title: "LostArk",
+      imgUrl: soloimg7,
+      url: "https://idyllic-lolly-70a8fa.netlify.app/",
+      githuburl: "https://github.com/Dongsusin/05-gamesite",
+      useskill: "React,Css",
     },
   ];
 
