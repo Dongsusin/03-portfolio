@@ -3,8 +3,6 @@ import { ProjectCard } from "./ProjectCard";
 import siteimg1 from "../assets/img/pokemon.png";
 import siteimg2 from "../assets/img/neo.png";
 import siteimg3 from "../assets/img/kakao.png";
-import siteimg4 from "../assets/img/kaist.png";
-import siteimg5 from "../assets/img/nexon.png";
 import gameimg1 from "../assets/img/speed.png";
 import gameimg2 from "../assets/img/search.png";
 import gameimg3 from "../assets/img/tetris.png";
@@ -16,6 +14,7 @@ import soloimg4 from "../assets/img/todolist.png";
 import soloimg5 from "../assets/img/protfolio.png";
 import soloimg6 from "../assets/img/calculator.png";
 import soloimg7 from "../assets/img/LostArk.png";
+import mile from "../assets/img/밀리의서재.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -44,6 +43,12 @@ export const Projects = () => {
       imgUrl: soloimg7,
       url: "https://idyllic-lolly-70a8fa.netlify.app/",
       githuburl: "https://github.com/Dongsusin/05-gamesite",
+    },
+    {
+      title: "밀리의 서재",
+      imgUrl: mile,
+      url: "https://9rodigital-willie.netlify.app/",
+      githuburl: "https://github.com/FRONTENDBOOTCAMP-13th/9RoDigital",
     },
   ];
   const secondprojects = [
