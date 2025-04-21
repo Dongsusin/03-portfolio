@@ -81,15 +81,14 @@ export const Projects = () => {
     {
       title: "날씨GPS",
       imgUrl: soloimg1,
-      url: "https://dongsusin.github.io/03-ANI-API/02-weather/weather.html",
-      githuburl: "https://github.com/Dongsusin/03-ANI-API/tree/main/02-weather",
+      url: "https://lively-sunflower-727a6f.netlify.app/",
+      githuburl: "https://github.com/Dongsusin/09-weather",
     },
     {
       title: "환률계산기",
       imgUrl: soloimg2,
-      url: "https://dongsusin.github.io/03-ANI-API/03-adjustment/exchange.html",
-      githuburl:
-        "https://github.com/Dongsusin/03-ANI-API/tree/main/03-adjustment",
+      url: "https://thunderous-raindrop-0b1bb5.netlify.app/",
+      githuburl: "https://github.com/Dongsusin/10-adjustment",
     },
     {
       title: "포켓몬API도감",
