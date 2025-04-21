@@ -24,37 +24,26 @@ export const Projects = () => {
     {
       title: "Pokemon",
       imgUrl: siteimg1,
-      url: "https://dongsusin.github.io/01-CITE/01-pokomon/pocketmon.html",
-      githuburl: "https://github.com/Dongsusin/01-CITE/tree/main/01-pokomon",
-      useskill: "Html,Css,js",
+      url: "https://fluffy-puffpuff-f27c33.netlify.app/",
+      githuburl: "https://github.com/Dongsusin/06-pokemon",
     },
     {
       title: "Neowiz",
       imgUrl: siteimg2,
-      url: "https://dongsusin.github.io/01-CITE/02-neowiz/neowiz.html",
-      githuburl: "https://github.com/Dongsusin/01-CITE/tree/main/02-neowiz",
-      useskill: "Html,Css,js",
+      url: "https://lustrous-syrniki-282361.netlify.app/",
+      githuburl: "https://github.com/Dongsusin/07-neowiz",
     },
     {
       title: "Kakao",
       imgUrl: siteimg3,
-      url: "https://dongsusin.github.io/01-CITE/03.kakao/kakao.html",
-      githuburl: "https://github.com/Dongsusin/01-CITE/tree/main/03.kakao",
-      useskill: "Html,Css,js",
+      url: "https://illustrious-palmier-afbdf9.netlify.app/",
+      githuburl: "https://github.com/Dongsusin/08-kakao",
     },
     {
-      title: "Kaist",
-      imgUrl: siteimg4,
-      url: "https://dongsusin.github.io/01-CITE/04-kaist/kaist.html",
-      githuburl: "https://github.com/Dongsusin/01-CITE/tree/main/04-kaist",
-      useskill: "Html,Css,js",
-    },
-    {
-      title: "Nexon",
-      imgUrl: siteimg5,
-      url: "https://dongsusin.github.io/01-CITE/05-nexon/nexon.html",
-      githuburl: "https://github.com/Dongsusin/01-CITE/tree/main/05-nexon",
-      useskill: "Html,Css,js",
+      title: "LostArk",
+      imgUrl: soloimg7,
+      url: "https://idyllic-lolly-70a8fa.netlify.app/",
+      githuburl: "https://github.com/Dongsusin/05-gamesite",
     },
   ];
   const secondprojects = [
@@ -63,28 +52,24 @@ export const Projects = () => {
       imgUrl: gameimg1,
       url: "https://dongsusin.github.io/02-GAME/01-seped/speed.html",
       githuburl: "https://github.com/Dongsusin/02-GAME/tree/main/01-seped",
-      useskill: "Html,Css,js",
     },
     {
       title: "지뢰찾기",
       imgUrl: gameimg2,
       url: "https://dongsusin.github.io/02-GAME/02-search/search.html",
       githuburl: "https://github.com/Dongsusin/02-GAME/tree/main/02-search",
-      useskill: "Html,Css,js",
     },
     {
       title: "테트리스",
       imgUrl: gameimg3,
       url: "https://dongsusin.github.io/02-GAME/03-tetris/tetris.html",
       githuburl: "https://github.com/Dongsusin/02-GAME/tree/main/03-tetris",
-      useskill: "Html,Css,js",
     },
     {
       title: "2048",
       imgUrl: gameimg4,
       url: "https://dongsusin.github.io/02-GAME/04-2048/2048.html",
       githuburl: "https://github.com/Dongsusin/02-GAME/tree/main/04-2048",
-      useskill: "Html,Css,js",
     },
   ];
   const thirdprojects = [
@@ -93,7 +78,6 @@ export const Projects = () => {
       imgUrl: soloimg1,
       url: "https://dongsusin.github.io/03-ANI-API/02-weather/weather.html",
       githuburl: "https://github.com/Dongsusin/03-ANI-API/tree/main/02-weather",
-      useskill: "Html,Css,Js,API",
     },
     {
       title: "환률계산기",
@@ -101,42 +85,30 @@ export const Projects = () => {
       url: "https://dongsusin.github.io/03-ANI-API/03-adjustment/exchange.html",
       githuburl:
         "https://github.com/Dongsusin/03-ANI-API/tree/main/03-adjustment",
-      useskill: "Html,Css,Js,API",
     },
     {
       title: "포켓몬API도감",
       imgUrl: soloimg3,
       url: "https://brilliant-alfajores-bbb341.netlify.app/",
       githuburl: "https://github.com/Dongsusin/01-pokemon-pokedex",
-      useskill: "React,API,Css",
     },
     {
       title: "To-Do-List",
       imgUrl: soloimg4,
       url: "https://shimmering-duckanoo-86e550.netlify.app/",
       githuburl: "https://github.com/Dongsusin/02-todolist",
-      useskill: "React,Css",
     },
     {
       title: "포트폴리오",
       imgUrl: soloimg5,
       url: "https://luxury-vacherin-425521.netlify.app/",
       githuburl: "https://github.com/Dongsusin/03-portfolio",
-      useskill: "React,Css",
     },
     {
       title: "계산기",
       imgUrl: soloimg6,
       url: "https://delicate-lily-bcf778.netlify.app/",
       githuburl: "https://github.com/Dongsusin/04-calculator",
-      useskill: "React,Css",
-    },
-    {
-      title: "LostArk",
-      imgUrl: soloimg7,
-      url: "https://idyllic-lolly-70a8fa.netlify.app/",
-      githuburl: "https://github.com/Dongsusin/05-gamesite",
-      useskill: "React,Css",
     },
   ];
 
@@ -160,13 +132,13 @@ export const Projects = () => {
                       id="pills-tab"
                     >
                       <Nav.Item>
-                        <Nav.Link eventKey="first">Clone Site</Nav.Link>
+                        <Nav.Link eventKey="first">Site</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
                         <Nav.Link eventKey="second">Game</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="third">API&React</Nav.Link>
+                        <Nav.Link eventKey="third">API</Nav.Link>
                       </Nav.Item>
                     </Nav>
                     <Tab.Content
