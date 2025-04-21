@@ -143,7 +143,7 @@ export const Projects = () => {
                         <Nav.Link eventKey="second">Game</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="third">API</Nav.Link>
+                        <Nav.Link eventKey="third">toi project</Nav.Link>
                       </Nav.Item>
                     </Nav>
                     <Tab.Content
