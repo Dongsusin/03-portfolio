@@ -55,26 +55,26 @@ export const Projects = () => {
     {
       title: "반응속도 테스트",
       imgUrl: gameimg1,
-      url: "https://dongsusin.github.io/02-GAME/01-seped/speed.html",
-      githuburl: "https://github.com/Dongsusin/02-GAME/tree/main/01-seped",
+      url: "https://dongsusin.github.io/02-Game/01-seped/speed.html",
+      githuburl: "https://github.com/Dongsusin/02-Game/tree/main/01-seped",
     },
     {
       title: "지뢰찾기",
       imgUrl: gameimg2,
-      url: "https://dongsusin.github.io/02-GAME/02-search/search.html",
-      githuburl: "https://github.com/Dongsusin/02-GAME/tree/main/02-search",
+      url: "https://dongsusin.github.io/02-Game/02-search/search.html",
+      githuburl: "https://github.com/Dongsusin/02-Game/tree/main/02-search",
     },
     {
       title: "테트리스",
       imgUrl: gameimg3,
-      url: "https://dongsusin.github.io/02-GAME/03-tetris/tetris.html",
-      githuburl: "https://github.com/Dongsusin/02-GAME/tree/main/03-tetris",
+      url: "https://dongsusin.github.io/02-Game/03-tetris/tetris.html",
+      githuburl: "https://github.com/Dongsusin/02-Game/tree/main/03-tetris",
     },
     {
       title: "2048",
       imgUrl: gameimg4,
-      url: "https://dongsusin.github.io/02-GAME/04-2048/2048.html",
-      githuburl: "https://github.com/Dongsusin/02-GAME/tree/main/04-2048",
+      url: "https://dongsusin.github.io/02-Game/04-2048/2048.html",
+      githuburl: "https://github.com/Dongsusin/02-Game/tree/main/04-2048",
     },
   ];
   const thirdprojects = [
