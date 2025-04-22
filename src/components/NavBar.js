@@ -10,6 +10,7 @@ export const NavBar = () => {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
+    //스크롤시 배경색 변경
     const onScroll = () => {
       if (window.scrollY > 50) {
         setScrolled(true);
@@ -17,12 +18,11 @@ export const NavBar = () => {
         setScrolled(false);
       }
     };
-
+    //스크롤 이벤트 리스너 등록
     window.addEventListener("scroll", onScroll);
-
+    //스크롤 이벤트 리스너 해제
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
-
   const onUpdateActiveLink = (value) => {
     setActiveLink(value);
   };

@@ -19,6 +19,7 @@ import "animate.css";
 import TrackVisibility from "react-on-screen";
 
 export const Projects = () => {
+  //첫번째 프로젝트 배열
   const firstprojects = [
     {
       title: "Pokemon",
@@ -51,6 +52,7 @@ export const Projects = () => {
       githuburl: "https://github.com/FRONTENDBOOTCAMP-13th/9RoDigital",
     },
   ];
+  //두번째 프로젝트 배열
   const secondprojects = [
     {
       title: "반응속도 테스트",
@@ -77,6 +79,7 @@ export const Projects = () => {
       githuburl: "https://github.com/Dongsusin/02-Game/tree/main/04-2048",
     },
   ];
+  //세번째 프로젝트 배열
   const thirdprojects = [
     {
       title: "날씨GPS",

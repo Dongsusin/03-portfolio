@@ -10,6 +10,7 @@ import reactimg from "../assets/img/react.png";
 import githublimg from "../assets/img/github.png";
 
 export const Skills = () => {
+  //반응형 설정
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
