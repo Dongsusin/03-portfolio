@@ -24,25 +24,25 @@ export const Projects = () => {
     {
       title: "Pokemon",
       imgUrl: siteimg1,
-      url: "https://fluffy-puffpuff-f27c33.netlify.app/",
+      url: "https://dongsusin.github.io/06-pokemon/",
       githuburl: "https://github.com/Dongsusin/06-pokemon",
     },
     {
       title: "Neowiz",
       imgUrl: siteimg2,
-      url: "https://lustrous-syrniki-282361.netlify.app/",
+      url: "https://dongsusin.github.io/07-neowiz/",
       githuburl: "https://github.com/Dongsusin/07-neowiz",
     },
     {
       title: "Kakao",
       imgUrl: siteimg3,
-      url: "https://illustrious-palmier-afbdf9.netlify.app/",
+      url: "https://dongsusin.github.io/08-kakao/",
       githuburl: "https://github.com/Dongsusin/08-kakao",
     },
     {
       title: "LostArk",
       imgUrl: soloimg7,
-      url: "https://idyllic-lolly-70a8fa.netlify.app/",
+      url: "https://dongsusin.github.io/05-gamesite/",
       githuburl: "https://github.com/Dongsusin/05-gamesite",
     },
     {
@@ -57,25 +57,25 @@ export const Projects = () => {
     {
       title: "반응속도 테스트",
       imgUrl: gameimg1,
-      url: "https://dongsusin.github.io/02-Game/01-seped/speed.html",
+      url: "https://dongsusin.github.io/11-speed/",
       githuburl: "https://github.com/Dongsusin/02-Game/tree/main/01-seped",
     },
     {
       title: "지뢰찾기",
       imgUrl: gameimg2,
-      url: "https://dongsusin.github.io/02-Game/02-search/search.html",
+      url: "https://dongsusin.github.io/12-search/",
       githuburl: "https://github.com/Dongsusin/02-Game/tree/main/02-search",
     },
     {
       title: "테트리스",
       imgUrl: gameimg3,
-      url: "https://dongsusin.github.io/02-Game/03-tetris/tetris.html",
+      url: "https://dongsusin.github.io/13-tetris/",
       githuburl: "https://github.com/Dongsusin/02-Game/tree/main/03-tetris",
     },
     {
       title: "2048",
       imgUrl: gameimg4,
-      url: "https://dongsusin.github.io/02-Game/04-2048/2048.html",
+      url: "https://dongsusin.github.io/14-2048/",
       githuburl: "https://github.com/Dongsusin/02-Game/tree/main/04-2048",
     },
   ];
@@ -84,37 +84,37 @@ export const Projects = () => {
     {
       title: "날씨GPS",
       imgUrl: soloimg1,
-      url: "https://lively-sunflower-727a6f.netlify.app/",
+      url: "https://dongsusin.github.io/09-weather//",
       githuburl: "https://github.com/Dongsusin/09-weather",
     },
     {
       title: "환률계산기",
       imgUrl: soloimg2,
-      url: "https://thunderous-raindrop-0b1bb5.netlify.app/",
+      url: "https://dongsusin.github.io/10-adjustment/",
       githuburl: "https://github.com/Dongsusin/10-adjustment",
     },
     {
       title: "포켓몬API도감",
       imgUrl: soloimg3,
-      url: "https://brilliant-alfajores-bbb341.netlify.app/",
+      url: "https://dongsusin.github.io/01-pokemon-pokedex/",
       githuburl: "https://github.com/Dongsusin/01-pokemon-pokedex",
     },
     {
       title: "To-Do-List",
       imgUrl: soloimg4,
-      url: "https://shimmering-duckanoo-86e550.netlify.app/",
+      url: "https://dongsusin.github.io/02-todolist/",
       githuburl: "https://github.com/Dongsusin/02-todolist",
     },
     {
       title: "포트폴리오",
       imgUrl: soloimg5,
-      url: "https://luxury-vacherin-425521.netlify.app/",
+      url: "https://dongsusin.github.io/03-portfolio/",
       githuburl: "https://github.com/Dongsusin/03-portfolio",
     },
     {
       title: "계산기",
       imgUrl: soloimg6,
-      url: "https://delicate-lily-bcf778.netlify.app/",
+      url: "https://dongsusin.github.io/04-calculator/",
       githuburl: "https://github.com/Dongsusin/04-calculator",
     },
   ];
