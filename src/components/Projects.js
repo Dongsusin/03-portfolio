@@ -118,7 +118,6 @@ export const Projects = () => {
       githuburl: "https://github.com/Dongsusin/04-calculator",
     },
   ];
-
   return (
     <section className="project" id="projects">
       <Container>

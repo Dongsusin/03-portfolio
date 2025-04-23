@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from "../assets/img/logo.png";
 import navIcon1 from "../assets/img/github.png";
+import navIcon2 from "../assets/img/navicon2.svg";
 import { HashLink } from "react-router-hash-link";
 import { BrowserRouter as Router } from "react-router-dom";
 
@@ -73,6 +74,11 @@ export const NavBar = () => {
               <div className="social-icon">
                 <a href="https://github.com/Dongsusin">
                   <img src={navIcon1} alt="" />
+                </a>
+              </div>
+              <div className="social-icon">
+                <a href="https://blog.naver.com/auroratime020715">
+                  <img src={navIcon2} alt="" />
                 </a>
               </div>
               <HashLink to="#connect">
