@@ -13,7 +13,6 @@ import soloimg3 from "../assets/img/pokedex.png";
 import soloimg4 from "../assets/img/todolist.png";
 import soloimg5 from "../assets/img/protfolio.png";
 import soloimg6 from "../assets/img/calculator.png";
-import soloimg7 from "../assets/img/LostArk.png";
 import mile from "../assets/img/밀리의서재.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
