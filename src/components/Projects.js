@@ -13,7 +13,6 @@ import soloimg2 from "../assets/img/change.png";
 import soloimg3 from "../assets/img/pokedex.png";
 import soloimg4 from "../assets/img/todolist.png";
 import soloimg5 from "../assets/img/protfolio.png";
-import soloimg6 from "../assets/img/calculator.png";
 import mile from "../assets/img/밀리의서재.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -110,12 +109,6 @@ export const Projects = () => {
       imgUrl: soloimg5,
       url: "https://dongsusin.github.io/portfolio/",
       githuburl: "https://github.com/Dongsusin/portfolio",
-    },
-    {
-      title: "계산기",
-      imgUrl: soloimg6,
-      url: "https://dongsusin.github.io/calculator/",
-      githuburl: "https://github.com/Dongsusin/calculator",
     },
   ];
   return (
