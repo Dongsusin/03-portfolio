@@ -3,6 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 import siteimg1 from "../assets/img/pokemon.png";
 import siteimg2 from "../assets/img/neo.png";
 import siteimg3 from "../assets/img/kakao.png";
+import siteimg4 from "../assets/img/seven.png";
 import gameimg1 from "../assets/img/speed.png";
 import gameimg2 from "../assets/img/search.png";
 import gameimg3 from "../assets/img/tetris.png";
@@ -37,6 +38,12 @@ export const Projects = () => {
       imgUrl: siteimg3,
       url: "https://dongsusin.github.io/kakao/",
       githuburl: "https://github.com/Dongsusin/kakao",
+    },
+    {
+      title: "세븐나이츠",
+      imgUrl: siteimg4,
+      url: "https://stalwart-granita-3bb4c2.netlify.app/",
+      githuburl: "https://dongsusin.github.io/seven/",
     },
     {
       title: "밀리의 서재",
