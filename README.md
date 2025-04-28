@@ -1,6 +1,6 @@
 # 🐣 Portfolio
 
-**🚀 배포 링크**: [PROTFOLIO 바로가기](https://luxury-vacherin-425521.netlify.app/)
+**🚀 배포 링크**: [PROTFOLIO 바로가기](https://thriving-clafoutis-7a8072.netlify.app/)
 
 React를 이용하여 나만의 포트폴리오를 만들어본 앱입니다.
 
