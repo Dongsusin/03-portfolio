@@ -62,7 +62,7 @@ export const Projects = () => {
     {
       title: "포트폴리오",
       imgUrl: soloimg5,
-      url: "https://dongsusin.github.io/portfolio/",
+      url: "https://thriving-clafoutis-7a8072.netlify.app",
       githuburl: "https://github.com/Dongsusin/portfolio",
     },
   ];
