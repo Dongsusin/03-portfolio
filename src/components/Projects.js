@@ -6,6 +6,7 @@ import siteimg3 from "../assets/img/kakao.png";
 import siteimg4 from "../assets/img/seven.png";
 import soloimg1 from "../assets/img/weather.png";
 import soloimg3 from "../assets/img/pokedex.png";
+import soloimg4 from "../assets/img/todolist.png";
 import soloimg5 from "../assets/img/protfolio.png";
 import mile from "../assets/img/밀리의서재.png";
 import "animate.css";
@@ -58,6 +59,12 @@ export const Projects = () => {
       imgUrl: siteimg4,
       url: "https://stalwart-granita-3bb4c2.netlify.app/",
       githuburl: "https://dongsusin.github.io/seven/",
+    },
+    {
+      title: "TO-DO-LIST",
+      imgUrl: soloimg4,
+      url: "https://dongsusin.github.io/todolist/",
+      githuburl: "https://github.com/Dongsusin/todolist",
     },
     {
       title: "포트폴리오",
