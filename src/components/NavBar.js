@@ -25,16 +25,6 @@ export const NavBar = () => {
     //스크롤 이벤트 리스너 해제
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
-  const onUpdateActiveLink = (value) => {
-    setActiveLink(value);
-  };
-  const toggleTheme = () => {
-    document.documentElement.setAttribute(
-      "data-theme",
-      darkMode ? "light" : "dark"
-    );
-    setDarkMode(!darkMode);
-  };
   return (
     <Router>
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
@@ -93,9 +83,6 @@ export const NavBar = () => {
                   <span>Connect</span>
                 </button>
               </HashLink>
-              <button onClick={toggleTheme} aria-label="Toggle dark mode">
-                {darkMode ? "🌞" : "🌙"}
-              </button>
             </span>
           </Navbar.Collapse>
         </Container>
