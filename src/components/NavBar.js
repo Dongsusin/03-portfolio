@@ -25,6 +25,9 @@ export const NavBar = () => {
     //스크롤 이벤트 리스너 해제
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+  const onUpdateActiveLink = (value) => {
+    setActiveLink(value);
+  };
   return (
     <Router>
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
