@@ -9,7 +9,6 @@ import soloimg3 from "../assets/img/pokedex.png";
 import soloimg4 from "../assets/img/todolist.png";
 import soloimg5 from "../assets/img/protfolio.png";
 import mile from "../assets/img/밀리의서재.png";
-import "animate.css";
 import TrackVisibility from "react-on-screen";
 
 export const Projects = () => {
@@ -79,50 +78,39 @@ export const Projects = () => {
         <Row>
           <Col size={12}>
             <TrackVisibility>
-              {({ isVisible }) => (
-                <div
-                  className={
-                    isVisible ? "animate__animated animate__fadeIn" : ""
-                  }
-                >
-                  <h2>Projects</h2>
-                  <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                    <Nav
-                      variant="pills"
-                      className="nav-pills mb-5 justify-content-center align-items-center"
-                      id="pills-tab"
-                    >
-                      <Nav.Item>
-                        <Nav.Link eventKey="first">Site</Nav.Link>
-                      </Nav.Item>
-                      <Nav.Item>
-                        <Nav.Link eventKey="second">toi project</Nav.Link>
-                      </Nav.Item>
-                    </Nav>
-                    <Tab.Content
-                      id="slideInUp"
-                      className={
-                        isVisible ? "animate__animated animate__slideInUp" : ""
-                      }
-                    >
-                      <Tab.Pane eventKey="first">
-                        <Row className="row-skill">
-                          {firstprojects.map((project, index) => {
-                            return <ProjectCard key={index} {...project} />;
-                          })}
-                        </Row>
-                      </Tab.Pane>
-                      <Tab.Pane eventKey="second">
-                        <Row className="row-skill">
-                          {secondprojects.map((project, index) => {
-                            return <ProjectCard key={index} {...project} />;
-                          })}
-                        </Row>
-                      </Tab.Pane>
-                    </Tab.Content>
-                  </Tab.Container>
-                </div>
-              )}
+              <div>
+                <h2>Projects</h2>
+                <Tab.Container id="projects-tabs" defaultActiveKey="first">
+                  <Nav
+                    variant="pills"
+                    className="nav-pills mb-5 justify-content-center align-items-center"
+                    id="pills-tab"
+                  >
+                    <Nav.Item>
+                      <Nav.Link eventKey="first">Site</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link eventKey="second">toi project</Nav.Link>
+                    </Nav.Item>
+                  </Nav>
+                  <Tab.Content id="slideInUp">
+                    <Tab.Pane eventKey="first">
+                      <Row className="row-skill">
+                        {firstprojects.map((project, index) => {
+                          return <ProjectCard key={index} {...project} />;
+                        })}
+                      </Row>
+                    </Tab.Pane>
+                    <Tab.Pane eventKey="second">
+                      <Row className="row-skill">
+                        {secondprojects.map((project, index) => {
+                          return <ProjectCard key={index} {...project} />;
+                        })}
+                      </Row>
+                    </Tab.Pane>
+                  </Tab.Content>
+                </Tab.Container>
+              </div>
             </TrackVisibility>
           </Col>
         </Row>

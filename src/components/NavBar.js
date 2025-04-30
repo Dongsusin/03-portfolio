@@ -9,6 +9,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
   const [scrolled, setScrolled] = useState(false);
+  const [darkMode, setDarkMode] = useState(false);
 
   useEffect(() => {
     //스크롤시 배경색 변경
@@ -27,7 +28,13 @@ export const NavBar = () => {
   const onUpdateActiveLink = (value) => {
     setActiveLink(value);
   };
-
+  const toggleTheme = () => {
+    document.documentElement.setAttribute(
+      "data-theme",
+      darkMode ? "light" : "dark"
+    );
+    setDarkMode(!darkMode);
+  };
   return (
     <Router>
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
@@ -86,6 +93,9 @@ export const NavBar = () => {
                   <span>Connect</span>
                 </button>
               </HashLink>
+              <button onClick={toggleTheme} aria-label="Toggle dark mode">
+                {darkMode ? "🌞" : "🌙"}
+              </button>
             </span>
           </Navbar.Collapse>
         </Container>
