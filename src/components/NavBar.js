@@ -9,8 +9,6 @@ import { BrowserRouter as Router } from "react-router-dom";
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
   const [scrolled, setScrolled] = useState(false);
-  const [darkMode, setDarkMode] = useState(false);
-
   useEffect(() => {
     //스크롤시 배경색 변경
     const onScroll = () => {
