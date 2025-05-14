@@ -1,6 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import mainimg1 from "../assets/img/seven.png";
+import mainimg2 from "../assets/img/2048.png";
 import soloimg1 from "../assets/img/weather.png";
 import soloimg2 from "../assets/img/musicplayer-preview.png";
 import soloimg3 from "../assets/img/pokedex.png";
@@ -56,6 +57,12 @@ export const Projects = () => {
       imgUrl: mainimg1,
       url: "https://stalwart-granita-3bb4c2.netlify.app/",
       githuburl: "https://dongsusin.github.io/seven/",
+    },
+    {
+      title: "Game-Hub",
+      imgUrl: mainimg2,
+      url: "https://rad-shortbread-e3d1b7.netlify.app/",
+      githuburl: "https://github.com/Dongsusin/react-game-hub",
     },
   ];
   return (
