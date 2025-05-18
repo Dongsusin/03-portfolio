@@ -1,7 +1,5 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import mainimg1 from "../assets/img/seven.png";
-import mainimg2 from "../assets/img/2048.png";
 import soloimg1 from "../assets/img/weather.png";
 import soloimg2 from "../assets/img/musicplayer-preview.png";
 import soloimg3 from "../assets/img/pokedex.png";
@@ -50,21 +48,6 @@ export const Projects = () => {
       githuburl: "https://github.com/Dongsusin/portfolio",
     },
   ];
-  //두번째 프로젝트 배열
-  const secondprojects = [
-    {
-      title: "세븐나이츠",
-      imgUrl: mainimg1,
-      url: "https://stalwart-granita-3bb4c2.netlify.app/",
-      githuburl: "https://dongsusin.github.io/seven/",
-    },
-    {
-      title: "Game-Hub",
-      imgUrl: mainimg2,
-      url: "https://rad-shortbread-e3d1b7.netlify.app/",
-      githuburl: "https://github.com/Dongsusin/react-game-hub",
-    },
-  ];
   return (
     <section className="project" id="projects">
       <Container>
@@ -80,23 +63,13 @@ export const Projects = () => {
                     id="pills-tab"
                   >
                     <Nav.Item>
-                      <Nav.Link eventKey="first">toi project</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="second">main project</Nav.Link>
+                      <Nav.Link eventKey="first">project</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp">
                     <Tab.Pane eventKey="first">
                       <Row className="row-skill">
                         {firstprojects.map((project, index) => {
-                          return <ProjectCard key={index} {...project} />;
-                        })}
-                      </Row>
-                    </Tab.Pane>
-                    <Tab.Pane eventKey="second">
-                      <Row className="row-skill">
-                        {secondprojects.map((project, index) => {
                           return <ProjectCard key={index} {...project} />;
                         })}
                       </Row>
